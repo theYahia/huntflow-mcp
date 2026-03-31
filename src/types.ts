@@ -18,3 +18,24 @@ export interface HFApplicant {
   position?: string;
   created: string;
 }
+
+export interface HFResume {
+  id: number;
+  auth_type: string;
+  account_source?: number;
+  created: string;
+  updated: string;
+}
+
+export interface HFStage {
+  id: number;
+  name: string;
+  order: number;
+  removed?: boolean;
+}
+
+export interface HFAccount {
+  id: number;
+  name: string;
+  nick: string;
+}

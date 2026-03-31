@@ -1,12 +1,17 @@
-const BASE_URL = "https://api.huntflow.ai/v2";
+const BASE_URL = (process.env.HUNTFLOW_BASE_URL || "https://api.huntflow.ru/v2").replace(/\/+$/, "");
 const TIMEOUT = 10_000;
 const MAX_RETRIES = 3;
 
-export async function hfGet(path: string): Promise<unknown> {
+function getToken(): string {
   const token = process.env.HUNTFLOW_TOKEN;
   if (!token) {
     throw new Error("HUNTFLOW_TOKEN обязателен. Получите в настройках HuntFlow: Настройки → API.");
   }
+  return token;
+}
+
+export async function hfGet(path: string): Promise<unknown> {
+  const token = getToken();
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     const controller = new AbortController();
