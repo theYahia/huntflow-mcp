@@ -1,7 +1,7 @@
 {
   "name": "@theyahia/huntflow-mcp",
   "version": "1.1.0",
-  "description": "MCP server for HuntFlow ATS API — vacancies, applicants, resumes, stages, accounts for recruiting.",
+  "description": "MCP server for Huntflow — ATS, vacancies, candidates, recruiting (Russia)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -45,7 +45,9 @@
     "huntflow",
     "recruiting",
     "ats",
-    "hr"
+    "hr",
+    "api",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {
