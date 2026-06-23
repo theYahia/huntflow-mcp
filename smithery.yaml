@@ -7,14 +7,19 @@ startCommand:
     properties:
       HUNTFLOW_TOKEN:
         type: string
-        title: HuntFlow API Token
-        description: "API токен из настроек HuntFlow (Настройки → API)"
+        title: HuntFlow Access Token
+        description: "Access-токен из настроек HuntFlow (Настройки → API-токены)"
+      HUNTFLOW_REFRESH_TOKEN:
+        type: string
+        title: HuntFlow Refresh Token
+        description: "Refresh-токен для авто-обновления access-токена (необязательно)"
   commandFunction:
     |-
     (config) => ({
       command: "node",
       args: ["dist/index.js"],
       env: {
-        HUNTFLOW_TOKEN: config.HUNTFLOW_TOKEN
+        HUNTFLOW_TOKEN: config.HUNTFLOW_TOKEN,
+        ...(config.HUNTFLOW_REFRESH_TOKEN ? { HUNTFLOW_REFRESH_TOKEN: config.HUNTFLOW_REFRESH_TOKEN } : {})
       }
     })
