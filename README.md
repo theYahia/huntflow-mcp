@@ -1,6 +1,6 @@
-# @theyahia/huntflow-mcp
+# MCP-сервер для Huntflow — вакансии, кандидаты и резюме ATS через ИИ
 
-MCP-сервер для HuntFlow ATS API — вакансии, кандидаты, резюме, этапы, справочники, аккаунты. **14 инструментов, 2 скилла.**
+Если вы искали, как подключить Huntflow к нейросети, найти кандидата и прочитать его резюме не листая карточки в ATS — это оно. 14 инструментов и 2 скилла: вакансии, кандидаты, резюме, этапы подбора, справочники, аккаунты. Спрашиваете «кто застрял на этапе техинтервью» — получаете список, а не выгрузку в CSV.
 
 [![npm](https://img.shields.io/npm/v/@theyahia/huntflow-mcp)](https://www.npmjs.com/package/@theyahia/huntflow-mcp)
 [![CI](https://github.com/theYahia/huntflow-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/theYahia/huntflow-mcp/actions/workflows/ci.yml)
