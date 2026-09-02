@@ -6,7 +6,7 @@ MCP-сервер для HuntFlow ATS API — вакансии, кандидат�
 [![CI](https://github.com/theYahia/huntflow-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/theYahia/huntflow-mcp/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Часть серии [Russian API MCP](https://github.com/theYahia/russian-mcp) (50 серверов).
+Часть серии [WWmcp](https://github.com/theYahia/WWmcp) (46 серверов).
 
 ## Установка
 
@@ -99,3 +99,7 @@ npm run build      # tsc
 
 ## Лицензия
 MIT
+
+---
+
+Часть [WWmcp](https://github.com/theYahia/WWmcp) · Telegram: [@vhodvai](https://t.me/vhodvai)
