@@ -1,3 +1,17 @@
+> ## 🗄 Репозиторий заархивирован
+>
+> Разработка переехала в **[theYahia/WWmcp](https://github.com/theYahia/WWmcp)** — монорепозиторий MCP-серверов для незападных API: СНГ, MENA, Африка, LATAM, Юго-Восточная Азия. Общее ядро `@theyahia/mcp-core`, единый CI, единый релизный конвейер.
+>
+> Актуальная версия того, что лежало здесь: [`servers/huntflow/`](https://github.com/theYahia/WWmcp/tree/main/servers/huntflow)
+>
+> Пакет в npm прежний — [`@theyahia/huntflow-mcp`](https://www.npmjs.com/package/@theyahia/huntflow-mcp), ставится и работает как раньше.
+> Здесь больше ничего не обновляется. Задачи и pull request'ы — в WWmcp.
+>
+> **Archived — development moved to [theYahia/WWmcp](https://github.com/theYahia/WWmcp),** a monorepo of MCP servers for non-Western APIs.
+> The current version of this package now lives at [`servers/huntflow/`](https://github.com/theYahia/WWmcp/tree/main/servers/huntflow).
+> The npm package [`@theyahia/huntflow-mcp`](https://www.npmjs.com/package/@theyahia/huntflow-mcp) is unchanged.
+> Please open issues and pull requests there.
+
 # MCP-сервер для Huntflow — вакансии, кандидаты и резюме ATS через ИИ
 
 Если вы искали, как подключить Huntflow к нейросети, найти кандидата и прочитать его резюме не листая карточки в ATS — это оно. 14 инструментов и 2 скилла: вакансии, кандидаты, резюме, этапы подбора, справочники, аккаунты. Спрашиваете «кто застрял на этапе техинтервью» — получаете список, а не выгрузку в CSV.
